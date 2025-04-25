@@ -1,0 +1,24 @@
+body {
+  background: url("../image/sekolah.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-login,
+.btn-register {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: white;
+  font-weight: bold;
+}
+.btn-login:hover,
+.btn-register:hover {
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+}
